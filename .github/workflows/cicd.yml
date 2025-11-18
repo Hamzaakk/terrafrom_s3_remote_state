@@ -7,7 +7,7 @@ on:
   pull_request:
 env:
   AWS_REGION: "eu-central-1"
-  ARN_TO_ASSUME: "Yarn:aws:iam::211125478358:role/terraform_cicd"
+  ARN_TO_ASSUME: "arn:aws:iam::211125478358:role/terraform_cicd"
 
 # Permission can be added at job level or workflow level
 permissions:
